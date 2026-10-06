@@ -1,0 +1,31 @@
+/* Fiscorex Email Design System — tokens (for preview/docs only).
+   Production emails must use inline styles + hex values (see email-base.html). */
+:root {
+  --fx-green: #0B4A33;
+  --fx-navy: #14213A;
+  --fx-navy-hover: #1D2E50;
+  --fx-canvas: #E9EDF4;
+  --fx-surface: #F8F8F4;
+  --fx-border: #DDDDD6;
+  --fx-text: #111111;
+  --fx-text-muted: #5B6475;
+  --fx-on-navy: #FFFFFF;
+  --fx-footer-text: #8591A8;
+  --fx-footer-muted: #66738C;
+
+  --fx-font: Verdana, 'DejaVu Sans', Geneva, Tahoma, sans-serif;
+  --fx-fs-body: 16px;
+  --fx-fs-small: 12px;
+  --fx-fs-h1: 24px;
+  --fx-fs-h2: 20px;
+
+  --fx-space-xs: 8px;
+  --fx-space-sm: 12px;
+  --fx-space-md: 16px;
+  --fx-space-lg: 24px;
+  --fx-space-xl: 32px;
+  --fx-space-xxl: 40px;
+
+  --fx-width: 600px;
+  --fx-radius: 8px;
+}

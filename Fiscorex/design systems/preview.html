@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiscorex Email Design System</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  body{margin:0;font-family:Verdana,sans-serif;background:#fff;color:#111;line-height:1.55}
+  main{max-width:960px;margin:0 auto;padding:40px 20px}
+  h1{color:var(--fx-green);margin:0 0 4px}
+  h2{border-bottom:1px solid var(--fx-border);padding-bottom:8px;margin-top:48px;color:var(--fx-navy)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+  .sw{border:1px solid var(--fx-border);border-radius:8px;overflow:hidden;font-size:12px}
+  .sw i{display:block;height:64px}
+  .sw div{padding:8px}
+  code{background:#eef0f4;padding:1px 5px;border-radius:4px;font-size:12px}
+  .btn{display:inline-block;background:var(--fx-navy);color:#fff;padding:14px 28px;border-radius:8px;font-weight:500;text-decoration:none}
+  .box{background:var(--fx-surface);border:1px solid var(--fx-border);padding:24px;border-radius:8px}
+  .foot{background:var(--fx-navy);color:var(--fx-footer-text);font-size:12px;padding:24px;border-radius:8px;text-align:center}
+  .foot a{color:var(--fx-footer-text)}
+  iframe{width:100%;height:900px;border:1px solid var(--fx-border);border-radius:8px}
+</style>
+</head>
+<body><main>
+<h1>Fiscorex Email Design System</h1>
+<p>Calm, trustworthy, compliance-first. Sumber: <code>tokens.json</code> · Template: <code>email-base.html</code></p>
+
+<h2>Colors</h2>
+<div class="grid">
+  <div class="sw"><i style="background:#0B4A33"></i><div><b>Brand Green</b><br>#0B4A33<br>Logo, brand links</div></div>
+  <div class="sw"><i style="background:#14213A"></i><div><b>Navy</b><br>#14213A<br>CTA, footer</div></div>
+  <div class="sw"><i style="background:#F8F8F4"></i><div><b>Surface</b><br>#F8F8F4<br>Email body</div></div>
+  <div class="sw"><i style="background:#E9EDF4"></i><div><b>Canvas</b><br>#E9EDF4<br>Outer background</div></div>
+  <div class="sw"><i style="background:#DDDDD6"></i><div><b>Border</b><br>#DDDDD6<br>Dividers</div></div>
+  <div class="sw"><i style="background:#111111"></i><div><b>Text</b><br>#111111<br>Body copy</div></div>
+  <div class="sw"><i style="background:#8591A8"></i><div><b>Footer Text</b><br>#8591A8<br>On navy</div></div>
+  <div class="sw"><i style="background:#66738C"></i><div><b>Footer Muted</b><br>#66738C<br>On navy</div></div>
+</div>
+
+<h2>Typography</h2>
+<div class="box">
+  <p style="font-size:24px;margin:0 0 8px"><b>Heading 24 / 700</b></p>
+  <p style="font-size:20px;margin:0 0 8px"><b>Subheading 20 / 700</b></p>
+  <p style="margin:0 0 8px">Body 16 / 400 / line-height 1.55 — Verdana with web-safe fallbacks.</p>
+  <p style="font-size:12px;margin:0;color:var(--fx-text-muted)">Small 12 / 400 — captions &amp; legal.</p>
+</div>
+
+<h2>Button (primary CTA)</h2>
+<div class="box" style="text-align:center"><a class="btn" href="#">See If You Qualify</a>
+<p style="font-size:12px;color:var(--fx-text-muted)">Navy #14213A · white label 16/500 · padding 14×28 · radius 8 · centered · one per email</p></div>
+
+<h2>Footer</h2>
+<div class="foot">Fiscorex LLC is an independent administrative and compliance services company.<br><br>&copy; 2026 Fiscorex LLC · Boston, MA · <a href="#">info@fiscorex.com</a></div>
+
+<h2>Full template</h2>
+<iframe src="email-base.html"></iframe>
+</main></body>
+</html>
