@@ -5,7 +5,7 @@ Semua email memakai [email-base.html](../../design systems/email-base.html) (hea
 ## Urutan (usulan)
 | # | Hari | Tema | Subject | CTA | Status |
 |---|---|---|---|---|---|
-| 01 | 0 | Perkenalan: manfaat + ajakan cek kelayakan | A way to cut payroll tax overhead and add health benefits | Book a 30-Minute Call | **Selesai** → `email-01-introduction.html` |
+| 01 | 0 | Perkenalan: manfaat + ajakan cek kelayakan | A way to cut payroll tax overhead and add health benefits | Schedule now | **Selesai** → `email-01-introduction.html` |
 | 02 | 2–3 | Versi singkat: potensi pengurangan FICA match, tanpa ganti asuransi | The short version | Book a 30-Minute Call | **Selesai** → `email-02-short-version.html` |
 | 03 | 5–6 | Benefit karyawan: telemedicine, primary care, mental health, nurse coaching | What your employees actually get | Book a 30-Minute Call | **Selesai** → `email-03-employee-benefits.html` |
 | 04 | 9–10 | Pertanyaan umum: apakah menggantikan asuransi? (tidak, melengkapi) | Does this replace our current insurance? | Book a 30-Minute Call | **Selesai** → `email-04-insurance-question.html` |
