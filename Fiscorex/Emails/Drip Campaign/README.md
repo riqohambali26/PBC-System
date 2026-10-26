@@ -24,4 +24,4 @@ Semua email memakai [email-base.html](../../design systems/email-base.html) (hea
 - Setiap file diberi komentar di atas HTML: subject, preheader, tujuan, dan kondisi exit.
 
 ## Merge tag
-`{{contact.first_name}}`, `John Krowiak`, `+1 888-493-2881`, `{{trigger_link.link}}`, `{{unsubscribe_link}}`
+`{{contact.first_name}}`, `John Krowiak`, `+1 888-493-2881`, `{{unsubscribe_link}}`
