@@ -1,10 +1,11 @@
 <!--
-  DRIP EMAIL 04 — Does it replace our insurance? (objection handling)
-  Send: Day 9-10 (3-4 days after Email 03)
-  Subject: Does this replace our current insurance?
-  Preheader: Short answer: no. It works alongside your current major medical coverage.
-  Goal: Click "See If You Qualify" (qualification check)
-  Exit: stop sequence when contact qualifies / books a call / unsubscribes
+  DRIP EMAIL 01 — The FICA Advantage Program
+  Send: Day 0 (alternate Day 3)
+  Subject: {{contact.first_name}}, could you save up to $1,186 per eligible employee annually?
+  Alternate subject (resend): Did you know you can save up to $1,186 per eligible employee annually?
+  Preheader: A Fortune 500 payroll strategy, now open to mid-market employers
+  Goal: Click "Schedule Now" (book a call) or reply
+  Exit: stop sequence when contact replies / books an appointment / unsubscribes
 -->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -13,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="x-apple-disable-message-reformatting">
 <meta name="color-scheme" content="light only">
-<title>Fiscorex Drip 04 - Insurance Question</title>
+<title>Fiscorex Drip 01 - The FICA Advantage Program</title>
 <!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
 <style>
   body { margin:0; padding:0; width:100% !important; -webkit-text-size-adjust:100%; }
@@ -24,6 +25,7 @@
     .fx-container { width:100% !important; }
     .fx-pad { padding-left:20px !important; padding-right:20px !important; }
     .fx-btn a { display:block !important; }
+    td.fx-sig { display:block !important; padding-right:0 !important; }
   }
 </style>
 </head>
@@ -31,7 +33,7 @@
 
 <!-- Preheader (hidden) -->
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#E9EDF4;">
-  Short answer: no. It works alongside your current major medical coverage.
+  A Fortune 500 payroll strategy, now open to mid-market employers
 </div>
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#E9EDF4;">
@@ -52,30 +54,42 @@
 
         <p style="margin:0 0 24px;">Hi {{contact.first_name}},</p>
 
-        <p style="margin:0 0 24px;">Short answer: no. This program is designed to work alongside your current major medical coverage, not replace it. It adds a complementary benefit layer on top of what you already offer.</p>
+        <img src="https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d0439b2eaead5c1929e8.jpeg" alt="John Krowiak" width="200" style="display:block;width:200px;max-width:100%;height:auto;margin:0 auto 24px;">
 
-        <p style="margin:0 0 24px;">That's one of the most common questions we get, so we wanted to address it directly.</p>
+        <p style="margin:0 0 24px;">I work with a FICA Advantage Program, a payroll tax compliance strategy Fortune 500 companies have used for years and that's now available to mid-market employers.</p>
 
-        <p style="margin:0 0 32px;">See how it fits with what you already have in place.</p>
+        <p style="margin:0 0 24px;">This program helps business owners give their employees access to real healthcare benefits (primary care, mental health, and prescriptions) at no out-of-pocket cost.</p>
 
+        <p style="margin:0 0 24px;">The program is offered using existing IRS-tested Section 125 and 105 tax rules, and it can save the employer up to $1,186 per eligible W-2 employee annually, with no payroll disruption and audit-ready compliance.</p>
 
+        <p style="margin:0 0 24px;">I can connect you with our team for a free review to show you exactly what's on the table. The majority of businesses with W-2 employees qualify for meaningful savings.</p>
 
+        <p style="margin:0 0 32px;">Have a question? Just reply to this email. Or pick a time on my calendar below.</p>
 
         <!-- CTA -->
         <table role="presentation" class="fx-btn" align="center" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 40px;">
           <tr>
             <td align="center" bgcolor="#14213A" style="background-color:#14213A;border-radius:8px;">
-              <a href="https://calendly.com/connect-fiscorex/30min" style="display:inline-block;padding:14px 28px;font-family:Verdana,'DejaVu Sans',Geneva,Tahoma,sans-serif;font-size:16px;font-weight:500;line-height:20px;color:#FFFFFF;text-decoration:none;border-radius:8px;">Book a 30-Minute Call</a>
+              <a href="https://calendly.com/connect-fiscorex/30min" style="display:inline-block;padding:14px 28px;font-family:Verdana,'DejaVu Sans',Geneva,Tahoma,sans-serif;font-size:16px;font-weight:500;line-height:20px;color:#FFFFFF;text-decoration:none;border-radius:8px;">Schedule Now</a>
             </td>
           </tr>
         </table>
 
         <!-- SIGN-OFF -->
-        <p style="margin:0 0 16px;">Kindly,</p>
-        <p style="margin:0 0 16px;">John Krowiak</p>
-        <p style="margin:0 0 16px;">CEO &amp; Founder<br><a href="https://fiscorex.com" style="color:inherit;text-decoration:underline;">Fiscorex.com</a></p>
-        <p style="margin:0 0 16px;"><a href="https://calendly.com/connect-fiscorex/30min" style="color:inherit;text-decoration:underline;">https://calendly.com/connect-fiscorex/30min</a></p>
-        <p style="margin:0;"><a href="tel:+18884932881" style="color:inherit;text-decoration:underline;">(888) 493-2881</a></p>
+        <table role="presentation" class="fx-sig" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="fx-sig" valign="top" style="padding:0 20px 16px 0;">
+              <img src="https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d0439b2eaead5c1929e8.jpeg" alt="John Krowiak" width="96" style="width:96px;height:auto;border-radius:4px;">
+            </td>
+            <td class="fx-sig" valign="top">
+            <p style="margin:0 0 16px;">Kindly,</p>
+            <p style="margin:0 0 16px;">John Krowiak</p>
+            <p style="margin:0 0 16px;">CEO &amp; Founder<br><a href="https://fiscorex.com" style="color:inherit;text-decoration:underline;">Fiscorex.com</a></p>
+            <p style="margin:0 0 16px;"><a href="https://calendly.com/connect-fiscorex/30min" style="color:inherit;text-decoration:underline;">https://calendly.com/connect-fiscorex/30min</a></p>
+            <p style="margin:0;"><a href="tel:+18884932881" style="color:inherit;text-decoration:underline;">(888) 493-2881</a></p>
+            </td>
+          </tr>
+        </table>
 
       </td>
     </tr>
