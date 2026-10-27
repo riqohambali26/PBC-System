@@ -1,10 +1,12 @@
 <!--
-  DRIP EMAIL 02 — The short version (FICA)
-  Send: Day 2-3 after Email 01
-  Subject: The short version
-  Preheader: Restructuring part of payroll pre-tax can reduce your FICA tax match.
-  Goal: Click "See If You Qualify" (qualification check)
-  Exit: stop sequence when contact qualifies / books a call / unsubscribes
+  DRIP EMAIL 11 — Graceful, Low-Pressure Close
+  Send: Day 87 (alternate/final Day 90)
+  Subject: Worth 30 minutes, whenever the timing's right
+  Alternate subject (resend): Worth 30 minutes when the timing's right
+  Preheader: No pressure, just leaving the door open
+  Goal: Click "Schedule Now" (book a call) or reply
+  Exit: stop sequence when contact replies / books an appointment / unsubscribes
+  Workflow: pause all automation after this send. Do not re-enter the contact without a new, explicit interest signal.
 -->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -13,7 +15,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="x-apple-disable-message-reformatting">
 <meta name="color-scheme" content="light only">
-<title>Fiscorex Drip 02 - The Short Version</title>
+<title>Fiscorex Drip 11 - Graceful, Low-Pressure Close</title>
 <!--[if mso]><noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript><![endif]-->
 <style>
   body { margin:0; padding:0; width:100% !important; -webkit-text-size-adjust:100%; }
@@ -24,6 +26,7 @@
     .fx-container { width:100% !important; }
     .fx-pad { padding-left:20px !important; padding-right:20px !important; }
     .fx-btn a { display:block !important; }
+    td.fx-sig { display:block !important; padding-right:0 !important; }
   }
 </style>
 </head>
@@ -31,7 +34,7 @@
 
 <!-- Preheader (hidden) -->
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:#E9EDF4;">
-  Restructuring part of payroll pre-tax can reduce your FICA tax match.
+  No pressure, just leaving the door open
 </div>
 
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#E9EDF4;">
@@ -52,28 +55,36 @@
 
         <p style="margin:0 0 24px;">Hi {{contact.first_name}},</p>
 
-        <p style="margin:0 0 24px;">Here's the short version: restructuring part of payroll on a pre-tax basis can reduce your company's FICA tax match, often by a meaningful amount, without changing your existing insurance setup.</p>
+        <p style="margin:0 0 24px;">I haven't heard back, and that's completely fine. The timing isn't always right.</p>
 
-        <p style="margin:0 0 24px;">Every company's numbers are different, so the exact figure for yours takes a quick look at your payroll details.</p>
+        <p style="margin:0 0 24px;">If it's ever useful, the offer stands: a free review to see whether your company could save up to $1,186 per eligible W-2 employee each year while giving your team $0 out-of-pocket care.</p>
 
-        <p style="margin:0 0 32px;">See if your company qualifies — it's a two-minute check.</p>
-
+        <p style="margin:0 0 32px;">You can reply to this email any time with a question, or grab a time on my calendar whenever it suits you.</p>
 
         <!-- CTA -->
         <table role="presentation" class="fx-btn" align="center" cellpadding="0" cellspacing="0" border="0" style="margin:0 auto 40px;">
           <tr>
             <td align="center" bgcolor="#14213A" style="background-color:#14213A;border-radius:8px;">
-              <a href="https://calendly.com/connect-fiscorex/30min" style="display:inline-block;padding:14px 28px;font-family:Verdana,'DejaVu Sans',Geneva,Tahoma,sans-serif;font-size:16px;font-weight:500;line-height:20px;color:#FFFFFF;text-decoration:none;border-radius:8px;">Book a 30-Minute Call</a>
+              <a href="https://calendly.com/connect-fiscorex/30min" style="display:inline-block;padding:14px 28px;font-family:Verdana,'DejaVu Sans',Geneva,Tahoma,sans-serif;font-size:16px;font-weight:500;line-height:20px;color:#FFFFFF;text-decoration:none;border-radius:8px;">Schedule Now</a>
             </td>
           </tr>
         </table>
 
         <!-- SIGN-OFF -->
-        <p style="margin:0 0 16px;">Kindly,</p>
-        <p style="margin:0 0 16px;">John Krowiak</p>
-        <p style="margin:0 0 16px;">CEO &amp; Founder<br><a href="https://fiscorex.com" style="color:inherit;text-decoration:underline;">Fiscorex.com</a></p>
-        <p style="margin:0 0 16px;"><a href="https://calendly.com/connect-fiscorex/30min" style="color:inherit;text-decoration:underline;">https://calendly.com/connect-fiscorex/30min</a></p>
-        <p style="margin:0;"><a href="tel:+18884932881" style="color:inherit;text-decoration:underline;">(888) 493-2881</a></p>
+        <table role="presentation" class="fx-sig" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td class="fx-sig" valign="top" style="padding:0 20px 16px 0;">
+              <img src="https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d0439b2eaead5c1929e8.jpeg" alt="John Krowiak" width="96" style="width:96px;height:auto;border-radius:4px;">
+            </td>
+            <td class="fx-sig" valign="top">
+            <p style="margin:0 0 16px;">Kindly,</p>
+            <p style="margin:0 0 16px;">John Krowiak</p>
+            <p style="margin:0 0 16px;">CEO &amp; Founder<br><a href="https://fiscorex.com" style="color:inherit;text-decoration:underline;">Fiscorex.com</a></p>
+            <p style="margin:0 0 16px;"><a href="https://calendly.com/connect-fiscorex/30min" style="color:inherit;text-decoration:underline;">https://calendly.com/connect-fiscorex/30min</a></p>
+            <p style="margin:0;"><a href="tel:+18884932881" style="color:inherit;text-decoration:underline;">(888) 493-2881</a></p>
+            </td>
+          </tr>
+        </table>
 
       </td>
     </tr>
