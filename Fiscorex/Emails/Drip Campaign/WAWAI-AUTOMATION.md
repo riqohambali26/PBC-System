@@ -9,11 +9,11 @@
 
 ## Subject lines
 
-- EMAIL-01 send (Day 1): `{{contact.first_name}}, could you save up to $1,186 per eligible employee annually?`
+- EMAIL-01 send (Day 1): `Could you save up to $1,186 per eligible employee annually?`
 - EMAIL-01 resend (Day 3): `Did you know you can save up to $1,186 per eligible employee annually?`
 - EMAIL-02 to EMAIL-10 (send and resend): the subject in each file's header comment.
 
-**Open:** Wawai contacts have only an email and groups, no first name, so `{{contact.first_name}}` in the Day 1 subject has nothing to fill it. Needs a decision before "go".
+Wawai contacts have no first name, so the name is left out of the Day 1 subject (and the body greeting is "Hi there,").
 
 ## Schedule (Day 1 = the day you say "go")
 

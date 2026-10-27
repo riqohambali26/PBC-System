@@ -15,7 +15,7 @@ IMAGES = {
 # Subjects that replace the one in the file's header comment: file -> (send, resend).
 SUBJECTS = {
     "email-01-introduction.html": (
-        "{{contact.first_name}}, could you save up to $1,186 per eligible employee annually?",
+        "Could you save up to $1,186 per eligible employee annually?",
         "Did you know you can save up to $1,186 per eligible employee annually?",
     ),
 }
