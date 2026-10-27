@@ -15,6 +15,12 @@
 
 Wawai contacts have no first name, so the name is left out of the Day 1 subject (and the body greeting is "Hi there,").
 
+## Contacts and failed emails
+
+- Source: the Fiscorex SIMERP scored CSV (599 rows, 591 with an email). Not committed (personal data). Imported into 12 groups, 50 contacts each (last has 41); group N starts N-1 days after "go".
+- Failure rule: no delivered record 24 hours after a contact's first EMAIL-01 send. EMAIL-01 is sent once to their **Email 2** (the CSV's second address, Day 1 subject), and all later steps go to Email 2 only. No Email 2, or Email 2 also fails: dropped.
+- Every failure is logged to `invalid-emails.csv` (not committed) for pasting into the "Invalid Email" tab of the Google Sheet.
+
 ## Schedule (Day 1 = the day you say "go")
 
 | Day | Step | Audience |
