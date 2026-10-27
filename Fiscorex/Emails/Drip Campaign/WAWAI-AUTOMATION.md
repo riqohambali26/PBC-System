@@ -3,7 +3,7 @@
 **Status: NOT STARTED — waiting for "go".** Nothing is scheduled or charged until then.
 
 - Wawai sub-account: `f723af01-f6f2-4edf-b3a6-9f1b0161273b` (Fiscorex), data source `native`, from name `Fiscorex`
-- Audience segment: chosen at "go" (current segments: `All` 2, `Test` 1, `Test-Neandro` 1)
+- Audience: groups `Drip-01` to `Drip-12` (see below)
 - HTML: `python3 to_wawai.py <email-file>` (swaps GHL images/merge tags for Wawai ones, prints subject to stderr)
 - Every email gets a small John Krowiak photo beside the signature (added by the converter).
 
@@ -17,7 +17,7 @@ Wawai contacts have no first name, so the name is left out of the Day 1 subject 
 
 ## Contacts and failed emails
 
-- Source: the Fiscorex SIMERP scored CSV (599 rows, 591 with an email). Not committed (personal data). Imported into 12 groups, 50 contacts each (last has 41); group N starts N-1 days after "go".
+- Source: the Fiscorex SIMERP scored CSV (599 rows, 591 with an email). Not committed (personal data). **Imported 2026-10-27** into 12 groups (`Drip-01` to `Drip-12`, highest intent score first; private mapping with Email 2 in `drip-contacts.csv`, not committed), 50 contacts each (last has 41); group N starts N-1 days after "go".
 - Failure rule: no delivered record 24 hours after a contact's first EMAIL-01 send. EMAIL-01 is sent once to their **Email 2** (the CSV's second address, Day 1 subject), and all later steps go to Email 2 only. No Email 2, or Email 2 also fails: dropped.
 - Every failure is logged to `invalid-emails.csv` (not committed) for pasting into the "Invalid Email" tab of the Google Sheet.
 
