@@ -2,7 +2,7 @@
 
 **Status: NOT STARTED — waiting for "go".** Nothing is scheduled or charged until then.
 
-- Wawai sub-account: `f723af01-f6f2-4edf-b3a6-9f1b0161273b` (Fiscorex), data source `native`, from name `Fiscorex`
+- Wawai sub-account: `f723af01-f6f2-4edf-b3a6-9f1b0161273b` (Fiscorex), data source `native`, from name `John Krowiak` (default set in Wawai; sends from fiscorex@mail.willsupportyou.com)
 - Audience: groups `Drip-01` to `Drip-12` (see below)
 - HTML: `python3 to_wawai.py <email-file>` (swaps GHL images/merge tags for Wawai ones, prints subject to stderr)
 - Every email gets a small John Krowiak photo beside the signature (added by the converter).
