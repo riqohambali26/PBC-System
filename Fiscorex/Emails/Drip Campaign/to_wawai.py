@@ -19,6 +19,7 @@ SUBJECTS = {
         "Did you know you can save up to $1,186 per eligible employee annually?",
     ),
 }
+JOHN = "https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d0439b2eaead5c1929e8.jpeg"
 UNSUB = '<p style="margin:0;color:#66738C;">Want to change'
 
 
@@ -28,6 +29,15 @@ def convert(src, name=""):
     html = src[src.index("<!DOCTYPE"):]  # drop the notes comment above the doctype
     for old, new in IMAGES.items():
         html = html.replace(old, new)
+    # Small headshot beside the signature (the lines after the SIGN-OFF marker, ending at the phone number).
+    html, n = re.subn(
+        r'(<!-- SIGN-OFF -->\n)(.*?\(888\) 493-2881</a></p>\n)',
+        lambda m: m.group(1)
+        + '<table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>\n'
+        + '<td valign="top" style="padding-right:16px;"><img src="' + IMAGES[JOHN] + '" alt="John Krowiak" width="90" style="display:block;width:90px;height:auto;border-radius:8px;"></td>\n'
+        + '<td valign="top">\n' + m.group(2) + '</td></tr></table>\n',
+        html, count=1, flags=re.S)
+    assert n == 1, "signature block not found"
     # Wawai contacts have no first name field.
     html = html.replace("Hi {{contact.first_name}},", "Hi there,")
     html = html.replace("{{unsubscribe_link}}", "{{unsubscribe_url}}")
