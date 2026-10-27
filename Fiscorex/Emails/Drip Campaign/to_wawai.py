@@ -12,11 +12,19 @@ IMAGES = {
     "https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d043c7069f4fc798d774.png": ASSET + "4d91bc5a-2044-4049-ba51-f88c81a64a6c.png",  # logo
     "https://assets.cdn.filesafe.space/2N22VRJfVoGJEc4GpJzv/media/6a96d0439b2eaead5c1929e8.jpeg": ASSET + "2bcb62f7-cbf8-4e32-b98c-a710e57ee90a.jpg",  # John Krowiak
 }
+# Subjects that replace the one in the file's header comment: file -> (send, resend).
+SUBJECTS = {
+    "email-01-introduction.html": (
+        "{{contact.first_name}}, could you save up to $1,186 per eligible employee annually?",
+        "Did you know you can save up to $1,186 per eligible employee annually?",
+    ),
+}
 UNSUB = '<p style="margin:0;color:#66738C;">Want to change'
 
 
-def convert(src):
+def convert(src, name=""):
     subject = re.search(r"Subject:\s*(.+)", src).group(1).strip()
+    subject = SUBJECTS.get(name, (subject,))[0]
     html = src[src.index("<!DOCTYPE"):]  # drop the notes comment above the doctype
     for old, new in IMAGES.items():
         html = html.replace(old, new)
@@ -31,6 +39,6 @@ def convert(src):
 
 
 if __name__ == "__main__":
-    subject, html = convert(open(sys.argv[1], encoding="utf-8").read())
-    print(subject, file=sys.stderr)
+    subject, html = convert(open(sys.argv[1], encoding="utf-8").read(), sys.argv[1])
+    print(subject, *SUBJECTS.get(sys.argv[1], ())[1:], sep="\n  resend: ", file=sys.stderr)
     sys.stdout.write(html)
