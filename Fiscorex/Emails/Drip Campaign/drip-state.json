@@ -30,6 +30,13 @@
    "date": "2026-10-27",
    "campaign_id": "camp_31ec75cd",
    "recipients": 50
+  },
+  {
+   "group": 2,
+   "day": 1,
+   "date": "2026-10-31",
+   "campaign_id": "camp_5a977ac4",
+   "recipients": 50
   }
  ],
  "starts": {
