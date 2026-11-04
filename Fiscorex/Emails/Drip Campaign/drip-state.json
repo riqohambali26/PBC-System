@@ -79,6 +79,14 @@
    "date": "2026-11-03",
    "campaign_id": "camp_e192c366",
    "recipients": 50
+  },
+  {
+   "group": 1,
+   "day": 6,
+   "date": "2026-11-04",
+   "campaign_id": "camp_3c7254df",
+   "recipients": 27,
+   "note": "EMAIL-02 sent to Drip-01-NC-2 (27 delivered, excludes failed and unsubscribed)"
   }
  ],
  "starts": {
