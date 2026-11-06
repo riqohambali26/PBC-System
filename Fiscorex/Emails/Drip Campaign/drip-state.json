@@ -124,6 +124,13 @@
    "date": "2026-11-06",
    "campaign_id": "camp_197753e5",
    "recipients": 28
+  },
+  {
+   "group": 6,
+   "day": 3,
+   "date": "2026-11-06",
+   "campaign_id": "camp_4f468b8a",
+   "recipients": 28
   }
  ],
  "starts": {
