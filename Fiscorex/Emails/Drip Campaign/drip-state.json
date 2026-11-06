@@ -22,7 +22,7 @@
   87,
   90
  ],
- "note": "Group g step day d is due on starts[g] + (d-1). Groups 2-12 re-baselined on 2026-10-31 (earlier runs were interrupted). Odd step index = EMAIL-nn send, even = resend to non-clickers (delivered and not clicked).",
+ "note": "Group g step day d is due on starts[g] + (d-1). Re-baselined 2026-11-06 after the Nov 5 run was cut off by a restart.",
  "done": [
   {
    "group": 1,
@@ -105,16 +105,16 @@
  ],
  "starts": {
   "1": "2026-10-30",
-  "2": "2026-10-31",
+  "2": "2026-11-01",
   "3": "2026-11-01",
   "4": "2026-11-02",
-  "5": "2026-11-03",
+  "5": "2026-11-04",
   "6": "2026-11-04",
-  "7": "2026-11-05",
-  "8": "2026-11-06",
-  "9": "2026-11-07",
-  "10": "2026-11-08",
-  "11": "2026-11-09",
-  "12": "2026-11-10"
+  "7": "2026-11-06",
+  "8": "2026-11-07",
+  "9": "2026-11-08",
+  "10": "2026-11-09",
+  "11": "2026-11-10",
+  "12": "2026-11-11"
  }
 }
