@@ -138,6 +138,14 @@
    "date": "2026-11-06",
    "campaign_id": "camp_a838da2f",
    "recipients": 50
+  },
+  {
+   "group": 4,
+   "day": 6,
+   "date": "2026-11-08",
+   "campaign_id": "camp_292b1ab8",
+   "recipients": 30,
+   "note": "EMAIL-02 to Drip-04-NC-2 (delivered only)"
   }
  ],
  "starts": {
