@@ -276,6 +276,14 @@
    "date": "2026-11-12",
    "campaign_id": "camp_a7d38302",
    "recipients": 41
+  },
+  {
+   "group": 1,
+   "day": 13,
+   "date": "2026-11-12",
+   "campaign_id": "camp_d127ec55",
+   "recipients": 27,
+   "note": "EMAIL-03 to Drip-01-OK-5 (delivered only, excludes unsubscriber)"
   }
  ],
  "starts": {
