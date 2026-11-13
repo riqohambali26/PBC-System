@@ -298,6 +298,14 @@
    "date": "2026-11-13",
    "campaign_id": "camp_9a22eedd",
    "recipients": 30
+  },
+  {
+   "group": 8,
+   "day": 6,
+   "date": "2026-11-13",
+   "campaign_id": "camp_64fd7ac4",
+   "recipients": 34,
+   "note": "EMAIL-02 to Drip-08-OK-3 (delivered only)"
   }
  ],
  "starts": {
