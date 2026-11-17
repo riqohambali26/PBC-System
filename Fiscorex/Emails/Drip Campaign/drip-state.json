@@ -383,6 +383,14 @@
    "campaign_id": "camp_b08b87a7",
    "recipients": 26,
    "note": "overdue from 2026-11-16; EMAIL-03 to Drip-05-NC-4 (delivered only, 2 contacts dropped earlier stay excluded)"
+  },
+  {
+   "group": 6,
+   "day": 13,
+   "date": "2026-11-17",
+   "campaign_id": "camp_ea09ac23",
+   "recipients": 27,
+   "note": "overdue from 2026-11-16; EMAIL-03 to Drip-06-NC-4 (delivered only, 1 contact dropped earlier stays excluded)"
   }
  ],
  "starts": {
