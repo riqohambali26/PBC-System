@@ -407,6 +407,14 @@
    "campaign_id": "camp_844005bf",
    "recipients": 27,
    "note": "overdue from 2026-11-16; EMAIL-02 to Drip-11-NC-2 (delivered only)"
+  },
+  {
+   "group": 9,
+   "day": 9,
+   "date": "2026-11-17",
+   "campaign_id": "camp_c69b8eac",
+   "recipients": 32,
+   "note": "EMAIL-02 resend to Drip-09-OK-3"
   }
  ],
  "starts": {
