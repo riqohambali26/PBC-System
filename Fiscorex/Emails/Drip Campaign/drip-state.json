@@ -367,6 +367,14 @@
    "campaign_id": "camp_78d9474a",
    "recipients": 23,
    "note": "overdue from 2026-11-16; EMAIL-03 resend"
+  },
+  {
+   "group": 3,
+   "day": 16,
+   "date": "2026-11-17",
+   "campaign_id": "camp_09bfd4dd",
+   "recipients": 29,
+   "note": "overdue from 2026-11-16; EMAIL-03 resend"
   }
  ],
  "starts": {
