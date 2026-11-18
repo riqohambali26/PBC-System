@@ -423,6 +423,14 @@
    "campaign_id": "camp_55062384",
    "recipients": 30,
    "note": "EMAIL-02 to Drip-12-NC-2 (delivered only)"
+  },
+  {
+   "group": 4,
+   "day": 16,
+   "date": "2026-11-18",
+   "campaign_id": "camp_502ff8e3",
+   "recipients": 27,
+   "note": "EMAIL-03 resend to Drip-04-NC-4"
   }
  ],
  "starts": {
