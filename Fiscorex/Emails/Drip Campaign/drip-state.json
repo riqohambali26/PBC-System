@@ -669,8 +669,8 @@
    "day": 16,
    "date": "2026-11-27",
    "campaign_id": "camp_9b7b82cb",
-   "recipients": 30,
-   "note": "EMAIL-03 resend to Drip-12-NC-2"
+   "recipients": 0,
+   "note": "CHECK: Wawai shows status running with 0 recipients/0 sent (all other campaigns that day finished). Resend to Drip-12-NC-2 (30) may NOT have gone out; left in done to avoid a double send."
   },
   {
    "group": 8,
