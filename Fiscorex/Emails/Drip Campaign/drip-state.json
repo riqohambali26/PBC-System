@@ -655,6 +655,14 @@
    "campaign_id": "camp_a7485b5e",
    "recipients": 27,
    "note": "overdue from 2026-11-26 (Wawai connector down); EMAIL-04 resend to Drip-06-NC-4"
+  },
+  {
+   "group": 11,
+   "day": 16,
+   "date": "2026-11-27",
+   "campaign_id": "camp_8592f00c",
+   "recipients": 27,
+   "note": "overdue from 2026-11-26 (Wawai connector down); EMAIL-03 resend to Drip-11-NC-2"
   }
  ],
  "starts": {
