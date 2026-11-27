@@ -679,6 +679,14 @@
    "campaign_id": "camp_0f545b5e",
    "recipients": 34,
    "note": "EMAIL-04 to Drip-08-OK-3"
+  },
+  {
+   "group": 1,
+   "day": 28,
+   "date": "2026-11-27",
+   "campaign_id": "camp_8e9174bc",
+   "recipients": 27,
+   "note": "EMAIL-05 to Drip-01-OK-5"
   }
  ],
  "starts": {
